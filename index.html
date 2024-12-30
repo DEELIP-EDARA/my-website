@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My VS Code Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+        }
+        header {
+            background-color: #007acc;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        section {
+            padding: 2rem;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+    <section>
+        <p>Created with Visual Studio Code and HTML.</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 My Website</p>
+    </footer>
+</body>
+</html>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+<section>
+    <button onclick="greetUser()">Click Me!</button>
+</section>
+<script src="script.js"></script>
+<section>
+    <button>Hover Over Me</button>
+</section>
+<nav>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li>
+            <a href="#">Services</a>
+            <ul>
+                <li><a href="#">Web Design</a></li>
+                <li><a href="#">Development</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
+<section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        <button type="submit">Submit</button>
+    </form>
+</section>
+<script src="script.js"></script>
